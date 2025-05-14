@@ -1,29 +1,21 @@
 var Judoka = function (canvas, context, fontSize) {
-    this.ascii = [
-        "             ?KKKKKKKKKKKKKK~           ",
-        "          KKKKKK$.        $KKKKD=       ",
-        "       ,KKKKI                KKKK:      ",
-        "     ~KKKK                     7KKK     ",
-        "    KKKK                        .KKK    ",
-        "   KKKKKK,                        KK8   ",
-        " .KKK  OKKK                       .KK.  ",
-        ".KKK    KKKKK.                     8KK. ",
-        "KKK    KKK KKKK=                    KK. ",
-        "KK.   .KK.   KKKKK                  KKK.",
-        "KK.   KKK       KKKKKKK             IKK.",
-        "KK. DKKK           KKKKKKKKKK        KK.",
-        "KK?KKK                   KKKKKKKK    KK.",
-        "DKKK8      KK=           .KK..KKKKK .KK~",
-        ".KKKZ     KKKK           ?KKK.   KKK:KK ",
-        " .KKK                             ?KKKK.",
-        "  .KK?                            8KKKK.",
-        "   IKK        KKKKKKKKKKK.        KKKK. ",
-        "    KKK.      DKK     KKK        KKK K  ",
-        "     KKK.      KKKKIKKKK       :KKK     ",
-        "      DKKK      IKKKKK$      .KKK$      ",
-        "        KKKK                KKKK        ",
-        "         .KKKKKK        KKKKKK          ",
-        "            .DKKKKKKKKKKKKD             "
+this.ascii = [
+"              a8888b.",
+"             d888888b.",
+"             8P"YP"Y88",
+"             8|o||o|88",
+"             8'    .88",
+"             8`._.' Y8.",
+"            d/      `8b.",
+"          .dP   .     Y8b.",
+"         d8:'   "   `::88b.",
+"        d8"           `Y88b",
+"       :8P     '       :888",
+"        8a.    :      _a88P",
+"      ._/"Yaa_ :    .| 88P|",
+"      \    YP"      `| 8P  `.",
+"      /     \._____.d|    .'",
+"      `--..__)888888P`._.'"
     ];
 
     /* The mask contains a flag for each line that determines whether
