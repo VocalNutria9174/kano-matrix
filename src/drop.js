@@ -48,7 +48,7 @@ Drop.prototype.update = function () {
     this.ctx.fillText(this.last_char, x_px, y_px);
 
     /* Redraw it orange */
-    this.ctx.fillStyle = "#eb722b";
+    this.ctx.fillStyle = "#E95420";
     this.ctx.fillText(this.last_char, x_px, y_px);
 
 
