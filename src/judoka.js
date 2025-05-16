@@ -15,7 +15,7 @@ var Judoka = function (canvas, context, fontSize) {
         "      ._/"Yaa_ :    .| 88P|  ",
         "      \    YP"      `| 8P  `.",
         "      /     \._____.d|    .' ",
-        "      `--..__)888888P`._.'   " ];
+        "      `--..__)888888P`._.'   " ]
 
     /* The mask contains a flag for each line that determines whether
        it should be displayed or not. These flags are randomly changed
